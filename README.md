@@ -16,7 +16,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import { InStreamView } from 'FBInStreamAds'
+import { InStreamView } from 'react-native-FBInStream'
 
 export default class FBInStreamAds extends Component {
 
