@@ -4,7 +4,7 @@
 2. Import module
 
 ```javascript
-import { InStreamView } from 'FBInStreamAds'
+import { InStreamView } from 'react-native-FBInStream'
 ```
 
 3. Cách sử dụng

@@ -1,3 +1,7 @@
 {
-    "name": "FBInStreamAds"
+  "name": "react-native-FBInStream",
+  "description": "React Native Facebook InStream Ads",
+  "author": "Hoang Doan <hoang.doan@outlook.com>",
+  "version": "0.1.0",
+  "main": "index.js"
 }
