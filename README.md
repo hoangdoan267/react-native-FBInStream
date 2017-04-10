@@ -4,7 +4,7 @@
 2. Import module
 
 ```javascript
-import { InStreamView } from 'react-native-FBInStream'
+import { InStreamView } from 'react-native-facebook-instream-ads'
 ```
 
 3. Cách sử dụng
@@ -16,7 +16,7 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import { InStreamView } from 'react-native-FBInStream'
+import { InStreamView } from 'react-native-facebook-instream-ads'
 
 export default class Example extends Component {
 
