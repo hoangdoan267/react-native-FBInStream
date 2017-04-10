@@ -18,7 +18,7 @@ import {
 
 import { InStreamView } from 'react-native-FBInStream'
 
-export default class FBInStreamAds extends Component {
+export default class Example extends Component {
 
   handleSuccess = () => {
  	//Xử lý khi Ads đã load xong
@@ -30,9 +30,9 @@ export default class FBInStreamAds extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View>
         <InStreamView
-          placementId={"1097860336911021_1412040112159707"}
+          placementId={"your-placement-id"}
           onAdDone={this.handleSuccess}
           onAdError={this.handleError}
         />
