@@ -66,5 +66,5 @@ const styles = StyleSheet.create({
 ## TODO
 
 - [x] iOS
-- [] Android
+- [ ] Android
 
