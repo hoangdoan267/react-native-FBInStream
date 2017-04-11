@@ -1,43 +1,64 @@
 # Facebook InStream Ads
+## Installation
+### 1. Install Javascript packages
 
-1. Copy 4 file vào project
-2. Import module
-
-```javascript
-import { InStreamView } from 'react-native-facebook-instream-ads'
+```bash
+$ yarn add react-native-facebook-instream-adsm
 ```
 
-3. Cách sử dụng
+Link to your project
 
+```bash
+$ react-native link react-native-facebook-instream-adsm
+```
+
+### 2. Downloading and linking the native Facebook SDK for iOS
+Follow all the steps in the [Getting Started Guide for Facebook SDK](https://developers.facebook.com/docs/ios/getting-started) for iOS.
+
+
+## Usage
 ```javascript
-import React, { Component } from 'react';
-import {
-  View,
-  TouchableOpacity
-} from 'react-native';
-
 import { InStreamView } from 'react-native-facebook-instream-ads'
-
 export default class Example extends Component {
 
   handleSuccess = () => {
- 	//Xử lý khi Ads đã load xong
+    //Handle when Ads loaded
   }
 
   handleError = () => {
-  	//Xử lý khi Ads load lỗi
+    //Handle when Ads had err
   }
 
-  render() {
-    return (
-      <View>
-        <InStreamView
-          placementId={"your-placement-id"}
-          onAdDone={this.handleSuccess}
-          onAdError={this.handleError}
-        />
-      </View>
-    );
-  }
+render() {
+  return (
+    <View style={styles.container}>
+      <InStreamView
+        style={//Optional.}
+        placementId={"your-placement-id"}
+        onAdDone={() => this.handleSuccess()}
+        onAdError={() => this.handleError()}
+      />
+    </View>
+  );
 }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
+  },
+});
 ```
