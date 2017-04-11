@@ -3,13 +3,13 @@
 ### 1. Install Javascript packages
 
 ```bash
-$ yarn add react-native-facebook-instream-adsm
+$ yarn add react-native-facebook-instream-ads
 ```
 
 Link to your project
 
 ```bash
-$ react-native link react-native-facebook-instream-adsm
+$ react-native link react-native-facebook-instream-ads
 ```
 
 ### 2. Downloading and linking the native Facebook SDK for iOS
@@ -29,18 +29,18 @@ export default class Example extends Component {
     //Handle when Ads had err
   }
 
-render() {
-  return (
-    <View style={styles.container}>
-      <InStreamView
-        style={//Optional.}
-        placementId={"your-placement-id"}
-        onAdDone={() => this.handleSuccess()}
-        onAdError={() => this.handleError()}
-      />
-    </View>
-  );
-}
+  render() {
+    return (
+      <View style={styles.container}>
+        <InStreamView
+          style={//Optional.}
+          placementId={"your-placement-id"}
+          onAdDone={() => this.handleSuccess()}
+          onAdError={() => this.handleError()}
+        />
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
