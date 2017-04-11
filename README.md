@@ -33,10 +33,10 @@ export default class Example extends Component {
     return (
       <View style={styles.container}>
         <InStreamView
-          style={//Optional.}
-          placementId={"your-placement-id"}
-          onAdDone={() => this.handleSuccess()}
-          onAdError={() => this.handleError()}
+          style={{"Your-own-style"}} //Optional.
+          placementId={"your-placement-id"} //Required.
+          onAdDone={() => this.handleSuccess()} //Required.
+          onAdError={() => this.handleError()} //Required.
         />
       </View>
     );
