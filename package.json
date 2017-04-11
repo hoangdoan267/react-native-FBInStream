@@ -1,6 +1,6 @@
 {
   "name": "react-native-facebook-instream-ads",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "React Native Facebook InStream Ads",
   "main": "index.js",
   "scripts": {

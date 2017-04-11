@@ -13,7 +13,7 @@ $ react-native link react-native-facebook-instream-ads
 ```
 
 ### 2. Downloading and linking the native Facebook SDK for iOS
-Follow all the steps in the [Getting Started Guide for Facebook SDK](https://developers.facebook.com/docs/ios/getting-started) for iOS.
+Follow all the steps in the [Getting Started Guide for Facebook SDK](https://developers.facebook.com/docs/ios/getting-started) and [Getting Started Guide for Facebook Audience](https://developers.facebook.com/docs/audience-network/getting-started) for iOS.
 
 
 ## Usage
@@ -62,3 +62,9 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+## TODO
+
+- [x] iOS
+- [] Android
+
