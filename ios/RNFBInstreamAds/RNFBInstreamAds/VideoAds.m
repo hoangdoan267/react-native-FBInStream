@@ -12,7 +12,9 @@
 @import FBAudienceNetwork;
 
 @interface VideoAdsView () <FBInstreamAdViewDelegate>
+
 @property (nonatomic, strong) FBInstreamAdView *adView;
+
 @end
 
 @implementation VideoAdsView

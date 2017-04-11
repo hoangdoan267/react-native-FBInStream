@@ -1,7 +1,25 @@
 {
   "name": "react-native-facebook-instream-ads",
+  "version": "0.1.3",
   "description": "React Native Facebook InStream Ads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangdoan267/react-native-FBInStream.git"
+  },
   "author": "Hoang Doan <hoang.doan@outlook.com>",
-  "version": "0.1.1",
-  "main": "index.js"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hoangdoan267/react-native-FBInStream/issues"
+  },
+  "homepage": "https://github.com/hoangdoan267/react-native-FBInStream#readme",
+  "devDependencies": {
+    "react-native": "^0.43.3"
+  },
+  "peerDependencies": {
+    "react": "16.0.0-alpha.6"
+  }
 }
