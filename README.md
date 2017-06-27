@@ -1,6 +1,6 @@
 # Facebook InStream Ads
 ## Installation
-### 1. Install Javascript packages
+### 1. Install Javascript packages.
 
 ```bash
 $ yarn add react-native-facebook-instream-ads
